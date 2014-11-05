@@ -14,6 +14,7 @@ public class Editora
         this.nome = nome;
         this.valor = valor;
     }
+    
     public void notificarTodos()
     {
         for(Observer o : observerList)
